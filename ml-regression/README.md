@@ -31,4 +31,29 @@ numpy
 在评估模型时，要合理拆分数据集，不要用训练模型的数据来评估模型。
 
 
-### []()
+### [Regression Week 4: Ridge Regression (interpretation)](https://www.coursera.org/learn/ml-regression/supplement/64hYu/reading-observing-effects-of-l2-penalty-in-polynomial-regression)
+
+regularization
+
+使用 graphlab.linear_regression.create， 加上 L2 penalty项。 解释L2的作用，对模型复杂度的影响。
+
+使用cross validation 和L2 regularization， 选择最优参数
+
+
+### [Regression Week 4: Ridge Regression (gradient descent)](https://www.coursera.org/learn/ml-regression/supplement/poz6z/reading-implementing-ridge-regression-via-gradient-descent)
+
+numpy/梯度下降
+
+
+### [Regression Week 5: Feature Selection and LASSO (Interpretation)](https://www.coursera.org/learn/ml-regression/supplement/qsV5O/reading-using-lasso-to-select-features)
+
+使用lasso， L1 penalty， 可以实现 feature selection。
+
+
+### [Regression Week 5: LASSO (coordinate descent)](https://www.coursera.org/learn/ml-regression/supplement/dtsUT/reading-implementing-lasso-using-coordinate-descent)
+
+因为lasso的 regularization 不能连续求导，在0点处需要特别处理。使用coordinate descent
+
+### [Predicting house prices using k-nearest neighbors regression](https://www.coursera.org/learn/ml-regression/supplement/dQJGs/reading-predicting-house-prices-using-k-nearest-neighbors-regression)
+
+local Regression。 主要思想是： 使用相似点做预测，越相似的权重越大。 考虑距离度量等等。
